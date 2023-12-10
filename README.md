@@ -15,7 +15,8 @@ or simply download the .zip.
 Use `npm install` to install all of the required dependencies.
 
 3. Deploy
-Use `npm run dev` to deploy.
+- Use `npm run dev` to deploy the application.
+- Navigate to /src/backend and deploy server.js through `node server.js` (This is where the route will be used to transfer requests.)
 
 ## Replacements
 - Replace the data in firebase.js with your own firebase web app configurations.
