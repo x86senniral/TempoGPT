@@ -14,6 +14,9 @@ or simply download the .zip.
 2. Install
 Use `npm install` to install all of the required dependencies.
 
+3. Deploy
+Use `npm run dev` to deploy.
+
 ## Replacements
 - Replace the data in firebase.js with your own firebase web app configurations.
 - Add in your openAI API key in `chatbot.py` at `OpenAI(api_key='')`
