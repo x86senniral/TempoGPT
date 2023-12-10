@@ -25,3 +25,6 @@ Use `npm install` to install all of the required dependencies.
 
 ## Possible Python Error
 - In `server.js` I'm using `spawn('python3', ['../utility/chatbot.py']);` , if you're using another version of python or  "plain" `python` , then just replace `python3` by `python`
+
+## Demo
+![image](https://github.com/vahshellus/TempoGPT/assets/60050784/cfcb4a6a-a0df-4a82-953f-2c9caf17f035)
