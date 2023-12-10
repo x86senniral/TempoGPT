@@ -16,7 +16,7 @@ Use `npm install` to install all of the required dependencies.
 
 ## Replacements
 - Replace the data in firebase.js with your own firebase web app configurations.
-- Add in your openAI API key in chat_bot.py at `OpenAI(api_key='')`
+- Add in your openAI API key in `chatbot.py` at `OpenAI(api_key='')`
 - If you wish to use the weather api in the example, sign up for the OpenWeatherMap for free and add in your API key in `API_KEY`. 
 
 ## Possible Python Error
