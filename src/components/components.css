@@ -1,0 +1,97 @@
+body {
+    background-color: #393646; /* Dark mode background */
+    color: #E0E0E0; /* Light text for contrast */
+    font-family: 'Arial', sans-serif; /* Modern, readable font */
+}
+
+.chat-space {
+    max-width: 800px; /* Adjust as needed */
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #242424; /* Slightly lighter than body for contrast */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    margin-top: 100px;
+}
+
+/* Message Display */
+.messages-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.messages-container li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    background: #323232; /* Dark background for messages */
+    color: white;
+    max-width: 70%;
+}
+
+.user-message {
+    margin-left: auto;
+    background: #4A90E2; /* Blue for user messages */
+}
+
+.gpt-message {
+    background: #27AE60; /* Green for FuzzBot messages */
+}
+
+/* Input and Button Styling */
+.input-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.inp {
+    flex-grow: 1;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #F5F7F8;
+}
+
+.button-arounder {
+    background: #FF5733; /* Vibrant button color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button-arounder:hover {
+    background: #C0392B; /* Darker shade on hover */
+    transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .chat-space {
+        margin: 10px;
+    }
+
+    .input-container {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .inp, .button-arounder {
+        width: 100%;
+    }
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.chat-space{
+    color: black;
+}
